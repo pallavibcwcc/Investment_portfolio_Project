@@ -1,0 +1,21 @@
+<tr>
+    <td class="data">Apple</td>
+    <td class="data"> $1,000</td>
+    <td class="data">$1,200</td>
+    <td class="data">+20%</td>
+   </tr>
+   <tr>
+    <td class="data">Google </td>
+    <td class="data">$500 </td>
+    <td class="data">$600</td>
+    <td class="data">+20%</td>
+   </tr>
+
+   var AssetName = document.add.AssetName.value;
+   var  Invested = document.add.Invested.value;
+ 
+     var tr = document.createElement('tr');
+     var td1 = tr.appendChild(document.createElement('td'));
+ 
+     td1.innerHTML= AssetName;
+     document.getElementById("tb1").appendChild(tr);

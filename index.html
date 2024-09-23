@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+   
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div class="Main">
+    <div><h1 class="headSection"> Investment Portfolio Tracker</h1></div>
+    <div class="card1"> 
+        <h1 class="AssetNamehead">AssetName:</h1> 
+        <input type="text" class="AssetNamesectiion" placeholder=""/>
+     <h1 class="totalhead">Total Portfolio Value:</h1>
+    <input class="TotalPortfolioValue" placeholder="$"/>
+    <h1 class="CurrentValuehead">Current Total Value:</h1>
+    <input class="CurrentValue-section" placeholder="$"/>
+
+</div>
+
+
+<div class="addbox">
+    <button class="add-btn" onclick="addInvestment()">Add Investment</button>
+    <div id="popBox" class="popup">
+        <h1> Add New Investment:-</h1>
+        <form >
+            <label for="Asset-section">Asset Name: </label>
+            <input   type="text"  id="Asset-section" placeholder="Asset Name "/><br>
+            <br>
+            <label for="Amount-section"> Amount Invested: </label>
+            <input  type="number" id="Amount-section" placeholder=" Amount Invested "/><br>
+            <br>
+            <label for="Current-section"> Current Value:</label>
+            <input  type="number" id="Current-section" placeholder=" Current Value"/><br><br>
+           </form>
+           <button class="ok" onclick="closeAddInv()">Ok</button>
+
+    </div>
+</div>
+    
+   <!-- <div class="AddNewInvestment">
+    <h1> click! To Add New Investment:</h1>
+        <button class="Add">ADD</button>
+   </div> -->
+        <div class="ListHandler">
+              
+    <div >
+        <h1>Investment List:</h1>
+        <table class="mainTable">
+            <tr class="info">
+             <th class="head-table">AssetName</th>
+             <th class="head-table">Invested</th>
+             <th class="head-table">Current</th>
+             <th class="head-table">% Change </th>
+             <th class="head-table">Action</th>
+            </tr>
+            
+            <tbody id="mytable">
+                
+     
+            </tbody> 
+         </table>
+
+
+
+    </div>
+
+
+        </div>
+   
+   
+
+  
+   
+  <!-- <div class="buttonUpdateRemove">
+    <button class="update">Update</button>
+    <button class="remove">Remove</button>
+  </div> -->
+
+  
+
+   <!-- <button onclick="addInvestment()">Add Investment</button> -->
+ 
+  
+   
+   <!-- <div>
+    <h1>Update Investment Form:</h1>
+    <form method="POST" name="Update">
+
+        <label for="Assetname:">Asset Name:</label>
+        <input   id="Assetname:" type="text" placeholder="Asset Name:"/><br>
+        <br>
+
+        <label  type="number" for=" AmountInvested"> Amount Invested:</label>
+        <input type="number" id="AmountInvested" placeholder="Amount Invested"/><br>
+        <br>
+        <label for="CurrentValue">Current Value:</label>
+        <input type="number" id="CurrentValue" placeholder="Current Value"/><br>
+        <br><br>
+        <input type="button" value="Update Investment" onclick="UpdateInvestment()"/>
+    </form>
+   </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

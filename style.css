@@ -1,0 +1,148 @@
+.CurrentValuehead{
+  margin-left: 200px;;
+}
+.totalhead{
+  margin-left: 200px;;
+}
+.AssetNamesectiion{
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+.AddNewInvestment{
+  margin-left: 700px;
+
+}
+
+.info{
+  border: 2px solid white;
+  
+}
+
+.mainTable {
+  margin-top: 40px;
+  width: 400px;
+  height: 100px;
+text-align: center;
+border: 2px solid white;
+
+ } 
+
+.head-table{
+  border: 2px solid white;
+  
+}
+td{
+  border: 2px solid white;
+
+}
+.popup{
+  width: 400px;
+  border-radius: 30px;
+  background: hsl(252, 95%, 36%);
+  position: absolute;
+  transform: translate(-50%,-50%) scale(0.1);
+  top: 0;
+  left:50%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: pink;
+  visibility:hidden;
+  transition: transform 0.4s ,top 0.4s;
+
+}
+
+.open-popup{
+  visibility: visible;
+  transform: translate(-50%,-50%) scale(1);
+  top: 60%;
+
+}
+.ListHandler{
+  width: 400px;
+  border-radius: 30px;
+  background: hsl(252, 95%, 36%);
+  position: absolute;
+   left:40%;
+  text-align: center;
+  padding: 0 40px 40px;
+  color: white;
+   
+}
+
+.ok{
+  width: 100%;
+  margin-top: 10%;
+  padding: 10px 0;
+  border: 0;
+  border: none;
+ font-size: 18px;
+ background-color: green;
+ color: white;
+ font: bold;
+cursor: pointer;
+border-radius: 30px;
+}
+.add-btn{
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* .div{
+  display: none;
+} */
+
+.card1{
+    display: flex;
+    border-style: solid;
+    height: 100px;
+  }
+.CurrentValue-section{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+   
+   
+
+}
+.TotalPortfolioValue{
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+ 
+
+}
+.currentValue {
+    display: flex;
+    border-style: solid;
+    height: 100px;
+  }
+ .Add{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  
+
+ }
+ 
+/* 
+ .data{
+  border: 2px solid green;
+ } */
+
+ /* .head{
+  border: 2px solid green;
+
+ } */
+.headSection{
+  margin-left:700px;
+} 
